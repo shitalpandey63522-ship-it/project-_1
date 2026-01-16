@@ -8,5 +8,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js "
+  },
+  "devDependencies": {
+    "prettier": "^3.8.0",
+    "nodemon": "^2.0.22"
   }
 }
