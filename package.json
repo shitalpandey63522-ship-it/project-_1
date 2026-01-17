@@ -7,10 +7,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js "
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js "
   },
   "devDependencies": {
-    "prettier": "^3.8.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "prettier": "^3.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4"
   }
 }
